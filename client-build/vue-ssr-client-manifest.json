@@ -1,0 +1,56 @@
+{
+  "publicPath": "",
+  "all": [
+    "app.e0df4191.js",
+    "runtime.9d195cc9.js",
+    "vendor.c069b4f1.js",
+    "index.html"
+  ],
+  "initial": [
+    "runtime.9d195cc9.js",
+    "vendor.c069b4f1.js",
+    "app.e0df4191.js"
+  ],
+  "async": [],
+  "modules": {
+    "e286c06c": [
+      2
+    ],
+    "422ce1c6": [
+      2
+    ],
+    "b389e316": [
+      0
+    ],
+    "5fce8878": [
+      0
+    ],
+    "6ee38894": [
+      0
+    ],
+    "bfdd57c0": [
+      2
+    ],
+    "699eca1a": [
+      2
+    ],
+    "52a7b9c2": [
+      2
+    ],
+    "84e91ebe": [
+      0
+    ],
+    "3b3ba7d2": [
+      0
+    ],
+    "402ed1a3": [
+      0
+    ],
+    "44dbdb32": [
+      0
+    ],
+    "56106ee9": [
+      2
+    ]
+  }
+}

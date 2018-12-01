@@ -6,13 +6,18 @@ module.exports = async (ctx, renderer, template) => {
     const context = {
       url: ctx.path
     }
+
     const appString = await renderer.renderToString(context)
+    const {
+      title
+    } = context.meta.inject()
     const html = ejs.render(template, {
       appString,
       style: context.renderStyles(),
       scripts: context.renderScripts(),
-      initalState: context.renderState()
+      title: title.text()
     })
+
     ctx.body = html
   } catch (err) {
     console.log('render error', err)

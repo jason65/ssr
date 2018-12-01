@@ -1,0 +1,218 @@
+@import './normalize.css';
+@import './font.css';
+* {
+    box-sizing: border-box;
+}
+
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    min-width: 1024px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    margin: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d4d4d4;
+    min-height: 150px;
+    min-width: 150px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+    background: #c0c4cc;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background: #c0c4cc;
+}
+
+/*二级标题*/
+
+.clearfix:after {
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: '';
+}
+
+.el-form--inline .el-form-item {
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+
+/*图表 & 表格一行*/
+
+.chartable {}
+
+.chartable .col1 {
+    width: 40%;
+    float: left;
+}
+
+.chartable .col2 {
+    width: 60%;
+    float: right;
+    padding-top: 65px;
+}
+
+/*图表 & 图表描述文字一行*/
+
+.chartext {}
+
+.chartext .col1 {}
+
+.chartext .col2 {}
+
+/*2列一行*/
+
+.col-2 {}
+
+.col-2 .col-2-1 {
+    width: 50%;
+    float: left;
+}
+
+.col-2 .col-2-2 {
+    width: 50%;
+    float: right;
+}
+
+/*3列一行*/
+
+.col-3 {}
+
+.col-3 .col-3-1 {
+    width: 33%;
+    float: left;
+}
+
+.col-3 .col-3-2 {
+    width: 33%;
+    float: left;
+}
+
+.col-3 .col-3-3 {
+    width: 34%;
+    float: left;
+}
+
+/*图表 | 表格一行*/
+
+.rowbox {}
+
+/*栅栏*/
+
+.col-2-1 {
+    width: 50%;
+    float: left;
+}
+
+.col-2-2 {
+    width: 50%;
+    float: right;
+}
+
+.col-3-1 {}
+
+/*弹出框*/
+
+.dialog {}
+
+.el-popover {
+    border-radius: 6px;
+}
+
+/*echarts*/
+
+.pieChart {
+    width: 100%;
+    height: 250px;
+}
+
+/*echarts*/
+
+.echarts h2 {
+    text-align: center;
+}
+
+/*table-list*/
+
+.table-list {
+    width: 100%;
+    text-align: right;
+    color: #333;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-list td {
+    border-right: 1px solid #eee;
+    padding: 10px 15px;
+    height: 30px;
+    color: #333;
+    font-size: 18px;
+    width: 15.5%;
+}
+
+.table-list td.normal {
+    color: #666;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.table-list td:last-child {
+    border-right: 0;
+}
+
+.table-list th {
+    width: 15.5%;
+    font-weight: normal;
+    padding: 0 15px;
+    color: #666;
+    font-size: 13px;
+    vertical-align: top;
+}

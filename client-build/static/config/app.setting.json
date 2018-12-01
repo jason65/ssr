@@ -1,0 +1,54 @@
+{
+  "api": {
+    "upms": "http://192.168.2.55:9030/upms/",
+    "manageDrg": "http://192.168.2.55:9030/cDrgQC/",
+    "kpiDrg": "http://192.168.2.55:9030/cDrgKPI/",
+    "cDrgOGM": "http://192.168.2.55:9030/cDrgOGM/",
+    "codeStandard": "http://192.168.2.55:9030/cDrgOGM/",
+    "newperformance": "http://192.168.2.67:9030/cDrgKPI",
+    "performance": "http://192.168.2.55:9030/cDrgKPI/",
+    "websoket": "http://113.57.147.202:38360/",
+    "singleDisease": "http://192.168.2.55:9030/cDrgSDM/",
+    "transfer": "http://113.57.147.202:8180/transfor/"
+  },
+
+  "config": {
+    "BUSINESS_SITE": "http://www.kindo.com.cn/",
+    "BUSINESS_NAME": "武汉金豆医疗数据科技有限公司",
+    "SYSTEM_TITLE1": "贵州医科大学附属医院",
+    "SYSTEM_TITLE2": "C-DRG绩效评价",
+    "SYSTEM_THEME": "default",
+    "ELEMENT_SIZE": "mini",
+    "REQUEST_TIME_OUT": 300000,
+    "COLOR": [
+      "#1bb2d8",
+      "#ff8e00",
+      "#5ab1ef",
+      "#ffb980",
+      "#d87a80",
+      "#8d98b3",
+      "#e5cf0d",
+      "#97b552",
+      "#95706d",
+      "#dc69aa",
+      "#07a2a4",
+      "#9a7fd1",
+      "#588dd5",
+      "#f5994e",
+      "#c05050",
+      "#59678c",
+      "#c9ab00",
+      "#7eb00a",
+      "#6f5553",
+      "#c14089"
+    ]
+  },
+
+  "constant": {
+    "USER_TOKEN": "USER_TOKEN",
+    "USER_INFO": "USER_INFO",
+    "USER_MENU": "USER_MENU",
+    "USER_MENUTREE": "USER_MENUTREE",
+    "USER_BUTTON": "USER_BUTTON"
+  }
+}

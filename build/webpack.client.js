@@ -59,14 +59,8 @@ if (isDev) {
 } else {
   config = merge(baseConfig, {
     entry: {
-      app: path.join(__dirname, '../client/client-entry.js'),
-      vendor: ['vue']
+      app: path.join(__dirname, '../client/client-entry.js')
     },
-    // output: {
-    //   filename: '[name].[chunkhash:8].js',
-    //   path: path.join(__dirname, '../dist/static/js/[name].[chunkhash].js'),
-    //   chunkFilename: path.join(__dirname, '../dist/static/js/[id].[chunkhash].js')
-    // },
     module: {
       rules: [{
         test: /\.styl/,
@@ -86,14 +80,7 @@ if (isDev) {
       }]
     },
     plugins: defaultPluins.concat([
-      new ExtractPlugin('styles.[contentHash:8].css'),
-      new webpack.optimize.CommonsChunkPlugin({
-        name: 'vendor'
-      }),
-      new webpack.optimize.CommonsChunkPlugin({
-        name: 'runtime'
-      }),
-      new webpack.NamedChunksPlugin()
+      new ExtractPlugin('styles.[contentHash:8].css')
     ])
   })
 }

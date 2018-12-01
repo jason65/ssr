@@ -1,22 +1,44 @@
-<!--  -->
 <template>
-  <div>
-    <p>
-      <router-link to="/todo">Go to todo</router-link>
-      <router-link to="/login">Go to login</router-link>
-    </p>
-    <router-view></router-view>
+  <div class="app">
+    app
   </div>
 </template>
 
 <script>
+
+
 export default {
+  name: 'App',
+
   data() {
     return {
+      fullscreenLoading: false
     }
   },
-  mounted() { },
-  methods: {}
+
+  created() {
+  },
+
+  methods: {
+
+  }
+}
+</script>
+
+<style scoped>
+* {
+  box-sizing: border-box;
+}
+.app {
+  height: 100%;
 }
 
-</script>
+.loading {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  z-index: 10;
+  color: #409eff;
+  font-size: 16px;
+}
+</style>
